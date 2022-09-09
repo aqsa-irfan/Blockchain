@@ -1,3 +1,7 @@
+//SPDX-License-Identifier: Unlicensed
+pragma solidity ^0.8.15;
+contract TaskOf29Aug
+{
 // To check the given number is palindrome
     uint pal;
     function palindrome(uint n) public
@@ -21,3 +25,6 @@
         }
         return(x==s);
     }
+ }
+
+
